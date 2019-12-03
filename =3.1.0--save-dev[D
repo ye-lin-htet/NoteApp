@@ -1,0 +1,27 @@
+
+> fibers@4.0.2 install /home/antonious/vue js/NoteApp/node_modules/fibers
+> node build.js || nodejs build.js
+
+make: Entering directory '/home/antonious/vue js/NoteApp/node_modules/fibers/build'
+  CXX(target) Release/obj.target/fibers/src/fibers.o
+  CXX(target) Release/obj.target/fibers/src/coroutine.o
+  CC(target) Release/obj.target/fibers/src/libcoro/coro.o
+  SOLINK_MODULE(target) Release/obj.target/fibers.node
+  COPY Release/fibers.node
+make: Leaving directory '/home/antonious/vue js/NoteApp/node_modules/fibers/build'
+Installed in `/home/antonious/vue js/NoteApp/node_modules/fibers/bin/linux-x64-57-glibc/fibers.node`
+todo-app@0.1.0 /home/antonious/vue js/NoteApp
+├── fibers@4.0.2  extraneous
+├─┬ firebase@7.5.0
+│ └─┬ @firebase/firestore@1.8.0
+│   └─┬ grpc@1.24.2
+│     └─┬ node-pre-gyp@0.14.0
+│       └── detect-libc@1.0.3 
+├─┬ sass@1.23.3
+│ └─┬ chokidar@2.1.8
+│   └─┬ fsevents@1.2.9
+│     └─┬ node-pre-gyp@0.12.0
+│       └── detect-libc@1.0.3 
+├── vue-cli-plugin-vuetify@1.1.1 
+└── vuefire@1.4.5 
+
